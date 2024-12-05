@@ -142,3 +142,5 @@ This scraper is for educational purposes only. Please ensure you have permission
 ---
 
 **Note**: Remember to review and comply with the terms of service of the target website before using this scraper.
+
+![meme](https://i.redd.it/o6xypg00uac91.png "meme")
