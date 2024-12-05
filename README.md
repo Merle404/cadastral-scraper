@@ -57,10 +57,9 @@ scraper = FastCadastralScraper(db_name='custom.db')
 
 ```python
 # In the main() function
-start_id = 0  # Custom start ID
+start_id = 0  # Custom start ID (I recommend to use a starting ID of 5625555.)
 end_id = 40150506  # Custom end ID
 ```
-I recommend to use a starting ID of 5625555.
 
 ### Adjust Concurrency
 
