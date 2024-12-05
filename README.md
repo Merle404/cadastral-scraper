@@ -1,4 +1,4 @@
-# Parcel Scraper (scraperdb.py)
+# cadastral-scraper (scraperdb.py)
 
 A high-performance asynchronous scraper for collecting cadastral (land registry) data from the Croatian land registry system oss.uredjenazemlja.hr. This scraper efficiently collects and stores detailed information about land parcels including ownership details, area, and location data.
 
