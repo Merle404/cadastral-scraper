@@ -145,7 +145,7 @@ class FastCadastralScraper:
                     if len(batch_durations) > 50:
                         batch_durations.pop(0)
                     
-                    if self.successful_requests % 10000 == 0:
+                    if self.successful_requests % self.batch_size == 0:
                         success_rate = (self.successful_requests / (self.successful_requests + self.failed_requests)) * 100
                         print(f"Success rate: {success_rate:.2f}% | Successful: {self.successful_requests:,} | Failed: {self.failed_requests:,}")
                     
@@ -161,7 +161,7 @@ class FastCadastralScraper:
 
 async def main():
     scraper = FastCadastralScraper()
-    start_id = 0
+    start_id = 5625555
     end_id = 40150506
     
     try:
